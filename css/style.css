@@ -1,5 +1,10 @@
 body {
     background-color: #f5f5f5;
+    width: 100vw;
+}
+
+.row {
+    width: 100%;
 }
 
 .container-card {
@@ -43,7 +48,9 @@ body {
     justify-content: center;
 }
 
-#btn-sobre {
+.btn-destaque {
+    border: 2px solid black;
+    margin-right: 3px;
     border-radius: 20px;
     padding: 5px 25px;
     background-color: black !important;
@@ -51,16 +58,26 @@ body {
     color: #f5f5f5 !important;
 }
 
-#btn-projeto {
+.btn-sem-destaque {
     border: 2px solid black;
+    margin-right: 3px;
     border-radius: 20px;
     padding: 5px 25px;
     font-weight: 600;
 }
 
-.icon-redes-sociais {
+#btn-projetos:hover, #btn-sobre:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+.icons-redes-sociais {
     text-align: center;
-    padding: 10px;
+}
+
+#descricao {
+    background-color: #a36262;
 }
 
 .title-text {
@@ -76,14 +93,14 @@ body {
     padding: 5px 17px;
 }
 
-.links-redes-sociais {
-    text-decoration: none;
+.links-redes-sociais > a {
+    text-decoration: none !important;
 }
 
-.links-redes-sociais {
-    color: black;
+.links-redes-sociais > a{
+    color: black !important;
     font-size: 25px;
-    padding: 10px;
+    margin: 5px;
 }
 
 #footer-elementos {
@@ -136,10 +153,6 @@ body {
         justify-content: center !important;
     }
 }
-
-    #texto-1 {
-
-    }
 
     #texto-2 {
         display: none;

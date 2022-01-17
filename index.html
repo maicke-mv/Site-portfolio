@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo Codaí</title>
+    <title>Meu perfil</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2? family = Poppins: wght @ 300 & display = swap" rel="stylesheet">
@@ -19,56 +19,58 @@
             <div class="offset-lg-3 col-md-3 col-lg-3 card-col">
                 <div class="card card-perfil">
                     <div class="img-card-perfil">
-                        <img src="./imagem/maickem.JPG" alt="Foto de perfil" class="card-image mx-auto d-block">
+                        <img src="./imagem/IMG_0267.JPG" alt="Foto de perfil" class="card-image mx-auto d-block">
                     </div>
                     <div class="card-body">
                         <h5 class="text-centrer card-title" id="nome-no-html"></h5>
                         <hr class="hr">
                         <p class="text-center">
-                            Futuro Desenvolvedor
+                            Desenvolvedor Front-End
                         </p>
                         <div class="botoes-card">
-                            <button onclick="clickNoSobre()" class="btn mr-1" id="btn-sobre">Sobre</button>
-                            <button onclick="clickNoProjetos()" class="btn ml-1 btn-card"
-                                id="btn-projeto">Experiências</button>
+                            <button onclick="clickNoSobre()"  id="btn-sobre" class="btn-destaque">Sobre</button>
+                            <button onclick="clickNoProjetos()" 
+                                id="btn-projetos" class="btn-sem-destaque">Projetos</button>
                         </div>
                         <div class="icons-redes-sociais">
-                            <div class="links-redes-sociais mt-2">
-                                <a href="https://web.facebook.com/maicke.massia.9/">
+                            <div class="links-redes-sociais">
+                                <a href="https://web.facebook.com/maicke.massia.9/" target="_blank">
                                     <i class="fab fa-facebook"></i>
                                 </a>
-                                <a href="https://twitter.com/massia_maicke">
+                                <a href="https://twitter.com/massia_maicke" target="_blank">
                                     <i class="fab fa-twitter"></i>
                                 </a>
                                 </a>
-                                <a href="https://www.instagram.com/maickem/?hl=pt-br">
+                                <a href="https://www.instagram.com/maickem/?hl=pt-br" target="_blank">
                                     <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://github.com/maicke-mv" target="_blank">
+                                    <i class="fab fa-github"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-6 text-body">
+            <div class="col-md-6 col-lg-6 text-body" id="descricao">
                 <div class="text" id="texto-1">
                     <h1 class="title-text">Olá!</h1>
-                    <h4 class="title-subtile">Bem vindo ao meu currículo.</h4>
+                    <h4 class="title-subtile">Bem vindo ao meu site portfólio.</h4>
                     <p>
-                        Me chamo Maicke, tenho 22 anos, moro na cidade de Novo Hamburgo e sou formado técnico em
-                        contabilidade. Atualmente, estudando sobre programação e desenvolvimento web.
+                        Me chamo Maicke, tenho 23 anos, moro na cidade de Novo Hamburgo.
                     </p>
                     <p>
-                        Desejo ingressar na área de desenvolvimento web e programação, meu conhecimento na área ainda é
-                        muito teorico, mas acredito que com o Programa Starter muitas portas irão se abrir para entrar
-                        neste ramo.
+                        Atualmente trabalho fazendo a implantação de sistemas de gestão pública para municípios, e também atuo como desenvolvedor front-end em projetos pessoais.
+                    </p>
+                    <p>
+                        Tenho conhecimento em HTML, CSS e na linguagem de programação Javascript, utilizando o React como biblioteca em alguns projetos.
                     </p>
                 </div>
                 <div class="text" id="texto-2">
-                    <h1 class="title-text">Experiências</h1>
-                    <h4 class="title-subtile">Minhas experiências.</h4>
+                    <h1 class="title-text">Projetos</h1>
+                    <h4 class="title-subtile">Meus projetos</h4>
                     <p>
-                        Sempre trabalhei no ramo automotivo. Foram três anos em um oficina de reparação automotiva, e um
-                        ano como vendedor de peças para carros.
+                        
                     </p>
                 </div>
             </div>
@@ -89,15 +91,18 @@
             <div class="col-md-3 col-lg-3">
                 <h4>Siga</h4>
                 <div class="links-redes-sociais">
-                    <a href="https://web.facebook.com/maicke.massia.9/">
+                    <a href="https://web.facebook.com/maicke.massia.9/" target="_blank">
                         <i class="fab fa-facebook"></i>
                     </a>
-                    <a href="https://twitter.com/massia_maicke">
+                    <a href="https://twitter.com/massia_maicke" target="_blank">
                         <i class="fab fa-twitter"></i>
                     </a>
                     </a>
-                    <a href="https://www.instagram.com/maickem/?hl=pt-br">
+                    <a href="https://www.instagram.com/maickem/?hl=pt-br" target="_blank">
                         <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/maicke-mv" target="_blank">
+                        <i class="fab fa-github"></i>
                     </a>
                 </div>
             </div>
@@ -105,7 +110,7 @@
     </footer>
     <div class="row text-center mg-2">
         <div class="col-md-12 col-lg-12">
-            <small>2021 <a href="https://www.growdev.com.br/">Growdev</a></small>
+            <small id="ano"></small>
         </div>
     </div>
 
